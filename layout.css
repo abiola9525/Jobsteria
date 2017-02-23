@@ -1,0 +1,85 @@
+/**
+ * @author - Gary Drocella
+ * @date - 01/20/10
+ * @file - layout.css
+ * Description - 
+ * 
+ */
+
+ body {background-color: #ff4d00;}
+
+ div#header{float:top; height: 20%; width: 80%;
+		margin-left: auto; margin-right: auto; margin-bottom: 15px; background-color: #ffffff; padding:5px;
+		border-radius: 20px;
+		}
+
+ div#links {
+	float:left;
+ }
+ 
+ div#login { float: right; height: 10% width:20%;
+	background-color: ffffff; 
+} 
+
+#mainContainer {
+	width: 80%;
+	height:90%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+#linkMenu {
+	width: 10%;
+	height: 90%;
+	float: left;
+	margin-right: 10px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+
+	display: inline;
+}
+
+
+ div#display {
+	min-height: 90%;
+	height: auto !important;
+	height: 90%;
+	width: 87%;
+	display: inline;
+	margin-top: 5px;
+	border-style: none;
+	border-color: #000000;
+	display: block;
+	background-color: #FFFFFF;
+	padding: 5px;
+	overflow: auto;
+	min-width: 500px;
+	border-radius: 20px;
+		  }
+
+
+ div#credits {text-align:center; width: 700px;}
+
+ div#links a {text-decoration: none;  font-family: sans-serif; background-color: #ffffff; }
+ 
+ h1, h2, h3, h4, p, li, i {color: black}
+
+ p , li, i ,td ,th  {font-family: sans-serif;}
+ 
+ h1 , h3, h4 {font-family: sans-serif;}
+ 
+ a {text-decoration: none; }
+ 
+ a:hover {color: red; }
+
+ a:visited {color: blue; }
+ 
+ a:active {color: red; }
+ 
+ .ui-datepicker { font-size: 9pt !important; }
+ 
+ fieldset {width: 60%;}
+ 
+

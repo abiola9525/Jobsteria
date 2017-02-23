@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<name>GetBids</name>
+	<method>post</method>
+	<params>
+		<param name="pid" type="integer" />
+	</params>
+</service>

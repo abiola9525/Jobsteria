@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<name>SendPM</name>
+	<method>post</method>
+	<params>
+		<param name="to_uid" type="integer"></param>
+		<param name="subject" type="string"></param>
+		<param name="message" type="string"></param>
+	</params>
+</service>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<name>SimpleJobList</name>
+	<method>POST</method>
+	<params>
+		<param name="base" type="integer" />
+		<param name="rc" type="integer" />
+	</params>
+</service>

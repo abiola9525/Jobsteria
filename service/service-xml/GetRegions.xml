@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<name>GetRegions</name>
+	<method>post</method>
+	<params>
+		<param name="country_id" type="integer"></param>
+	</params>
+</service>

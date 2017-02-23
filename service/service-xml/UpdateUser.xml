@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<name>UpdateUser</name>
+	<method>post</method>
+	<params>
+		<param name="name" type="string">name</param>
+		<param name="username" type="string">username</param>
+		<param name="password" type="string">password</param>
+		<param name="add_ts" type="timestamp">add_ts</param>
+		<param name="update_ts" type="timestamp">update_ts</param>
+		<param name="address" type="string">address</param>
+		<param name="birth_date" type="date">birth_date</param>
+		<param name="zipcode" type="string">zipcode</param>
+		<param name="email" type="string">email</param>
+		<param name="state_prov" type="string">state_prov</param>
+		<param name="city" type="string">city</param>
+		<param name="country" type="string">country</param>
+		<param name="avitar" type="string">avitar</param>
+		<param name="phone" type="string">phone</param>
+		<param name="work_phone" type="string">work_phone</param>
+		<param name="skype" type="string">skype</param>
+		<param name="aim" type="string">aim</param>
+		<param name="resume_file_loc" type="string">resume_file_loc</param>
+	</params>
+</service>

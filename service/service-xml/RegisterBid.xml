@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<service>
+	<name>RegisterBid</name>
+	<method>post</method>
+	<params>
+		<param name="uid" type="integer" />
+		<param name="pid" type="integer" />
+		<param name="charge" type="double" />
+		<param name="amount" type="amount" />
+		<param name="message" type="string" />
+		<param name="startDate" type="date" />
+		<param name="endDate" type="date" />
+		<param name="milestone" type="ms" />
+	</params>
+	
+</service>

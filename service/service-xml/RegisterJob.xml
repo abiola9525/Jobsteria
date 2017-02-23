@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<service>
+	<name>RegisterJob</name>
+	<method>post</method>
+	<params>
+		<param name="name" type="string" />
+		<param name="description" type="string" />
+		<param name="budget_upper_bound" type="integer" />
+		<param name="budget_lower_bound" type="integer" />
+		<param name="currency_type" type="string" />
+		<param name="job_start_date" type="date" />
+		<param name="job_projected_end_date" type="date" />
+	</params>
+</service>

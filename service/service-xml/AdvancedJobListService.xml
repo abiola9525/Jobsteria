@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<name>AdvancedJobList</name>
+	<method>POST</method>
+	<params>
+		<param name="base" type="integer" />
+		<param name="rc" type="integer" />
+		<param name="pid" type="integer" />
+		<param name="name" type="varchar(64)" />
+		<param name="description" type="varchar(1000)" />
+		<param name="budget_upper_bound" type="double" />
+		<param name="budget_lower_bound" type="double" />
+		<param name="currency_type" type="varchar(12)" />
+		<param name="status" type="varchar(12)" />
+		<param name="job_start_date" type="date" />
+		<param name="job_projected_end_date" type="date" />
+	</params>
+</service>
